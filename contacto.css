@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .logo {
+	color:rgb(165, 157, 124);
+	font-size:30px;
+    
+}
+
+header .logo img {
+    border-radius: 50%;
+	width:32%;
+	vertical-align: middle;
+    margin-top: 2rem;
+    
+    
+}
+
+header .logo a {
+	color:rgb(165, 157, 124);
+	text-decoration: none;
+	line-height:30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(48, 45, 45);
+    height: 23vh;
+    width: 100%;
+    position:relative;
+    margin-top: 0;
+    
+}
+
+header a{
+    color: rgb(165, 157, 124);
+    text-decoration: none;
+    
+}
+
+
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 2.5rem;
+    justify-content: center;
+    
+    
+    
+}
+header ul li{
+    margin: 0.6em;
+    font-size: 18px;
+    
+    
+}
+a:hover{
+    color: violet;
+    
+}
+
+    
+header .submenu{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    text-align: left;
+    background-color: rgb(48, 45, 45);
+    margin-top: 0.5rem;
+    background-color: rgb(64, 31, 95);
+    border-color: beige;
+    
+}
+
+header li:hover>ul{
+    display:block;
+}
+
+body{
+    background-image: url(img/images12.jpg);
+}
+
+body .form-register{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+
+body .form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+body .controls{
+    width: 100%;
+    background: rgb(48, 48, 43);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(62, 53, 53);
+    font-size: 16px;
+    color: white;
+}
+body .form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+body .form-register a{
+    color: white;
+    text-decoration: none;
+}
+body .form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+body .form-register .botons{
+    width: 100%;
+    background: rgb(28, 25, 25);
+    border: none;
+    padding: 2px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+@media screen and (max-width:640px){
+   
+    
+    header .logo {
+        color:rgb(165, 157, 124);
+        font-size:20px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    
+    header .logo img {
+        border-radius: 50%;
+        margin-top: 2.5rem;
+        margin-left: 20px;
+        height: 45px;
+        width: 40px;
+        
+        
+    }
+    
+    header .logo a {
+        color:rgb(165, 157, 124);
+        text-decoration: none;
+        line-height:40px;
+        
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(48, 45, 45);
+        height: 25vh;
+        width: 100%;
+        position:relative;
+        
+    }
+    
+    header a{
+        color: rgb(165, 157, 124);
+        text-decoration: none;
+        
+        
+    
+    }
+    
+    
+    header ul{
+        display: flex;
+        list-style-type: none;
+        margin-top: 3rem;
+        display: block;
+        margin: 0;
+        margin-left: 0;
+        
+        
+        
+    }
+    header ul li{
+        margin: 0.6em;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        
+        
+    }
+    a:hover{
+        color: violet;
+        text-decoration: none;
+        
+    }
+    
+        
+    .submenu{
+        display: none;
+        position: absolute;
+        min-width: 100px;
+        text-align: left;
+        background-color: rgb(48, 45, 45);
+        margin-top: 0.5rem;
+        background-color: rgb(64, 31, 95);
+        padding-left: 0%;
+        
+    }
+    
+    header li:hover>ul{
+        display:block;
+    }
+    .principal{
+        display: flex;
+        
+    }
+
+    body .form-register{
+        width: 350px;
+        background: #24303c;
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 4px;
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+        
+    }
+
+}
+@media screen and (max-width:1024px)and (min-width:640px){
+
+    
+}

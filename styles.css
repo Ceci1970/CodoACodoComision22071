@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+header .logo {
+	color:rgb(165, 157, 124);
+	font-size:30px;
+    
+}
+
+header .logo img {
+    border-radius: 50%;
+	width:32%;
+	vertical-align: middle;
+    margin-top: 2rem;
+    
+    
+}
+
+header .logo a {
+	color:rgb(165, 157, 124);
+	text-decoration: none;
+	line-height:30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(48, 45, 45);
+    height: 23vh;
+    width: 100%;
+    position:absolute;
+    
+}
+
+header a{
+    color: rgb(165, 157, 124);
+    text-decoration: none;
+    
+}
+
+
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 2.5rem;
+    justify-content: center;
+    
+    
+    
+}
+header ul li{
+    margin: 0.6em;
+    font-size: 18px;
+    
+    
+}
+a:hover{
+    color: violet;
+    
+}
+
+    
+header .submenu{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    text-align: left;
+    background-color: rgb(48, 45, 45);
+    margin-top: 0.5rem;
+    background-color: rgb(64, 31, 95);
+    border-color: beige;
+    
+}
+
+header li:hover>ul{
+    display:block;
+}
+
+main div img{
+    height: 60%;
+    object-fit: cover;
+    margin-left: 8%;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    
+
+} 
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12%;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.centrado{
+    position: absolute;
+    top: 88%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    font-family: 'Tapestry', cursive;
+    font-size: 26px;
+    color: blueviolet;
+    
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    border-radius: 5%;
+    animation: anim 5s linear infinite alternate;
+    
+}
+@keyframes anim {
+    from {color: violet;}     
+    to{color: rgb(48, 25, 48);}
+
+}
+.especial{
+    text-align: center;
+    background-color: bisque;
+    height: 17vh;
+    width: 40%;
+    margin-left: 30%;
+    font-family: 'Tapestry', cursive;
+    font-size: 25px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);;
+    padding-top: 0.5rem;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(36, 33, 33);
+    color: beige;
+    height: 15vh;
+    padding-top: 2%;
+    width: 100%;
+    margin-top: 0%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:640px){
+    header .logo {
+        color:rgb(165, 157, 124);
+        font-size:20px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    
+    header .logo img {
+        border-radius: 50%;
+        margin-top: 2.5rem;
+        margin-left: 20px;
+        height: 45px;
+        width: 40px;
+        
+        
+    }
+    
+    header .logo a {
+        color:rgb(165, 157, 124);
+        text-decoration: none;
+        line-height:40px;
+        
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(48, 45, 45);
+        height: 25vh;
+        width: 100%;
+        position:relative;
+        
+    }
+    
+    header a{
+        color: rgb(165, 157, 124);
+        text-decoration: none;
+        
+        
+    
+    }
+    
+    
+    header ul{
+        display: flex;
+        list-style-type: none;
+        margin-top: 3rem;
+        display: block;
+        margin: 0;
+        margin-left: 0;
+        
+        
+        
+    }
+    header ul li{
+        margin: 0.6em;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        
+        
+    }
+    a:hover{
+        color: violet;
+        text-decoration: none;
+        
+    }
+    
+        
+    .submenu{
+        display: none;
+        position: absolute;
+        min-width: 100px;
+        text-align: left;
+        background-color: rgb(48, 45, 45);
+        margin-top: 0.5rem;
+        background-color: rgb(64, 31, 95);
+        padding-left: 0%;
+        
+    }
+    
+    header li:hover>ul{
+        display:block;
+    }
+    .principal{
+        display: flex;
+        
+    }
+
+    main div img{
+        height: 60%;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0%;
+        object-fit: cover;
+        
+        box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+        
+    
+    } 
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin-top: 12%;
+    }
+    .texto-encima{
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    .centrado{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Tapestry', cursive;
+        font-size: 16px;
+        color: blueviolet;
+        
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        border-radius: 5%;
+        animation: anim 5s linear infinite alternate;
+        
+    }
+    @keyframes anim {
+        from {color: violet;}     
+        to{color: rgb(48, 25, 48);}
+    
+    }
+    .especial{
+        text-align: center;
+        background-color: bisque;
+        height: 17vh;
+        width: 40%;
+        margin-left: 30%;
+        font-family: 'Tapestry', cursive;
+        font-size: 14px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);;
+        padding-top: 0.5rem;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: rgb(36, 33, 33);
+        color: beige;
+        height: 15vh;
+        padding-top: 2%;
+        width: 100%;
+        margin-top: 0%;
+    }
+    
+}
+@media screen and (max-width:1024px)and (min-width:640px){
+    header .logo {
+        color:rgb(165, 157, 124);
+        font-size:20px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    
+    header .logo img {
+        border-radius: 50%;
+        margin-top: 2.5rem;
+        margin-left: 20px;
+        height: 45px;
+        width: 40px;
+        
+        
+    }
+    
+    header .logo a {
+        color:rgb(165, 157, 124);
+        text-decoration: none;
+        line-height:40px;
+        
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(48, 45, 45);
+        height: 25vh;
+        width: 100%;
+        position:relative;
+        
+    }
+    
+    header a{
+        color: rgb(165, 157, 124);
+        text-decoration: none;
+        
+        
+    
+    }
+    
+    
+    header ul{
+        display: flex;
+        list-style-type: none;
+        margin-top: 3rem;
+        display: block;
+        margin: 0;
+        margin-left: 0;
+        
+        
+        
+    }
+    header ul li{
+        margin: 0.6em;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        
+        
+    }
+    a:hover{
+        color: violet;
+        text-decoration: none;
+        
+    }
+    
+        
+    .submenu{
+        display: none;
+        position: absolute;
+        min-width: 100px;
+        text-align: left;
+        background-color: rgb(48, 45, 45);
+        margin-top: 0.5rem;
+        background-color: rgb(64, 31, 95);
+        padding-left: 0%;
+        
+    }
+    
+    header li:hover>ul{
+        display:block;
+    }
+    .principal{
+        display: flex;
+        
+    }
+
+    main div img{
+        height: 60%;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0%;
+        object-fit: cover;
+        
+        box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+        
+    
+    } 
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin-top: 12%;
+    }
+    .texto-encima{
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    .centrado{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Tapestry', cursive;
+        font-size: 16px;
+        color: blueviolet;
+        
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        border-radius: 5%;
+        animation: anim 5s linear infinite alternate;
+        
+    }
+    @keyframes anim {
+        from {color: violet;}     
+        to{color: rgb(48, 25, 48);}
+    
+    }
+    .especial{
+        text-align: center;
+        background-color: bisque;
+        height: 17vh;
+        width: 40%;
+        margin-left: 30%;
+        font-family: 'Tapestry', cursive;
+        font-size: 14px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);;
+        padding-top: 0.5rem;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: rgb(36, 33, 33);
+        color: beige;
+        height: 15vh;
+        padding-top: 2%;
+        width: 100%;
+        margin-top: 0%;
+    }
+    
+}
+    
+   
+
